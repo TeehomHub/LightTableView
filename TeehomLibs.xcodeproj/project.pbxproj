@@ -16,9 +16,6 @@
 		F84DFFAA1BCFDF0D005B5220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84DFFA81BCFDF0D005B5220 /* LaunchScreen.storyboard */; };
 		F84DFFB41BCFDF92005B5220 /* THButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DFFB31BCFDF92005B5220 /* THButton.m */; settings = {ASSET_TAGS = (); }; };
 		F84DFFB71BCFE073005B5220 /* UIView+THFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F84DFFB61BCFE073005B5220 /* UIView+THFrame.m */; settings = {ASSET_TAGS = (); }; };
-		F84DFFB91BCFE4B1005B5220 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F84DFFB81BCFE4B1005B5220 /* Icon-60.png */; settings = {ASSET_TAGS = (); }; };
-		F863F7EC1BD629710054F9BA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F863F7EA1BD629710054F9BA /* star.png */; settings = {ASSET_TAGS = (); }; };
-		F863F7ED1BD629710054F9BA /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F863F7EB1BD629710054F9BA /* star@2x.png */; settings = {ASSET_TAGS = (); }; };
 		F89CEB031BD790370008ACE8 /* ArrayTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB021BD790370008ACE8 /* ArrayTableViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
 		F89CEB061BD794060008ACE8 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB051BD794060008ACE8 /* CustomCell.m */; settings = {ASSET_TAGS = (); }; };
 		F89CEB091BD794550008ACE8 /* CustomCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = F89CEB081BD794550008ACE8 /* CustomCell+Configure.m */; settings = {ASSET_TAGS = (); }; };
@@ -43,10 +40,7 @@
 		F84DFFB31BCFDF92005B5220 /* THButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THButton.m; sourceTree = "<group>"; };
 		F84DFFB51BCFE073005B5220 /* UIView+THFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THFrame.h"; sourceTree = "<group>"; };
 		F84DFFB61BCFE073005B5220 /* UIView+THFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THFrame.m"; sourceTree = "<group>"; };
-		F84DFFB81BCFE4B1005B5220 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
 		F84DFFBE1BCFE65F005B5220 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
-		F863F7EA1BD629710054F9BA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
-		F863F7EB1BD629710054F9BA /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 		F89CEB011BD790370008ACE8 /* ArrayTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayTableViewDataSource.h; sourceTree = "<group>"; };
 		F89CEB021BD790370008ACE8 /* ArrayTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTableViewDataSource.m; sourceTree = "<group>"; };
 		F89CEB041BD794060008ACE8 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
@@ -134,9 +128,6 @@
 		F84DFF9A1BCFDF0D005B5220 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F863F7EA1BD629710054F9BA /* star.png */,
-				F863F7EB1BD629710054F9BA /* star@2x.png */,
-				F84DFFB81BCFE4B1005B5220 /* Icon-60.png */,
 				F84DFF9B1BCFDF0D005B5220 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -229,10 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F84DFFAA1BCFDF0D005B5220 /* LaunchScreen.storyboard in Resources */,
-				F863F7EC1BD629710054F9BA /* star.png in Resources */,
 				F84DFFA71BCFDF0D005B5220 /* Assets.xcassets in Resources */,
-				F863F7ED1BD629710054F9BA /* star@2x.png in Resources */,
-				F84DFFB91BCFE4B1005B5220 /* Icon-60.png in Resources */,
 				F84DFFA51BCFDF0D005B5220 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
